@@ -17,6 +17,7 @@ struct PostHistoryPage {
     this.page = 1
     this.total = 0
     this.getMyPostInfoList(this.page)
+    
   }
 
   async getMyPostInfoList(page: number) {
